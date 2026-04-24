@@ -138,19 +138,9 @@ export default function Releases() {
   return (
     <section id="releases" className="py-24 md:py-36 px-6 md:px-12 lg:px-20 bg-surface/30">
       {/* Header */}
-      <div className="flex items-end justify-between mb-16">
-        <div>
-          <div className="font-mono text-xs text-accent tracking-[0.3em] uppercase mb-3">— Discography</div>
-          <h2 className="font-display font-black text-4xl md:text-6xl text-text">Releases</h2>
-        </div>
-        <a
-          href="https://open.spotify.com/artist/3zhrErhSD05oqdDKVs8UVR"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="btn-outline hidden md:inline-block"
-        >
-          Spotify →
-        </a>
+      <div className="mb-16">
+        <div className="font-mono text-xs text-accent tracking-[0.3em] uppercase mb-3">— Discography</div>
+        <h2 className="font-display font-black text-4xl md:text-6xl text-text">Releases</h2>
       </div>
 
       <div className="line-glow mb-16" />
@@ -162,9 +152,17 @@ export default function Releases() {
         ))}
       </div>
 
-      <p className="font-mono text-xs text-muted mt-10 text-center tracking-widest uppercase">
-        Click any cover to explore
-      </p>
+      <div className="mt-10 flex items-center justify-between">
+        <p className="font-mono text-xs text-muted tracking-widest uppercase">Click any cover to explore</p>
+        <a
+          href="https://open.spotify.com/artist/3zhrErhSD05oqdDKVs8UVR"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-mono text-xs text-accent hover:text-accent-dark transition-colors tracking-widest uppercase"
+        >
+          All on Spotify →
+        </a>
+      </div>
 
       {/* Lightbox */}
       <AnimatePresence>
