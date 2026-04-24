@@ -14,7 +14,7 @@ const platforms = [
     title: 'Full Sets & Free Downloads',
     platform: 'SoundCloud',
     description: 'Live recordings, free downloads, and the full catalog — all on SoundCloud.',
-    href: 'https://soundcloud.com/stoley',
+    href: 'https://soundcloud.com/stoleyyyyy',
     color: '#FF5500',
   },
   {
@@ -65,16 +65,16 @@ export default function Mixes() {
             <div className="w-2 h-2 rounded-full bg-accent" />
             <div className="w-2 h-2 rounded-full bg-muted" />
             <div className="w-2 h-2 rounded-full bg-muted" />
-            <span className="font-mono text-xs text-dim ml-2">soundcloud.com/stoley</span>
+            <span className="font-mono text-xs text-dim ml-2">soundcloud.com/stoleyyyyy</span>
           </div>
           <div className="bg-white">
             <iframe
               width="100%"
-              height="166"
+              height="450"
               scrolling="no"
               frameBorder="no"
               allow="autoplay"
-              src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/stoley&color=%23C8291A&auto_play=false&hide_related=false&show_comments=false&show_user=true&show_reposts=false&show_teaser=true"
+              src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/stoleyyyyy/sets/free-downloads&color=%23C8291A&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
               className="block"
             />
           </div>

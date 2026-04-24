@@ -6,7 +6,7 @@ const socials = [
   { name: 'Instagram', handle: '@stoleyyyyy', href: 'https://instagram.com/stoleyyyyy', color: '#E1306C' },
   { name: 'TikTok', handle: '@stoleyyyyy', href: 'https://tiktok.com/@stoleyyyyy', color: '#000000' },
   { name: 'Spotify', handle: 'Stoley', href: 'https://open.spotify.com', color: '#1DB954' },
-  { name: 'SoundCloud', handle: 'Stoley', href: 'https://soundcloud.com/stoley', color: '#FF5500' },
+  { name: 'SoundCloud', handle: 'Stoley', href: 'https://soundcloud.com/stoleyyyyy', color: '#FF5500' },
   { name: 'Beatport', handle: 'Stoley', href: 'https://beatport.com', color: '#C8291A' },
   { name: 'YouTube', handle: 'Club View Records', href: 'https://youtube.com', color: '#FF0000' },
   { name: 'Facebook', handle: '@stoleyyyyy', href: 'https://facebook.com/stoleyyyyy', color: '#1877F2' },
